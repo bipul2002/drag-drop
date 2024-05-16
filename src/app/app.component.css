@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+  }
+  
+  .toolbox {
+    margin-right: 20px;
+  }
+  
+  .canvas {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+  }
+  
+  .draggable {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
